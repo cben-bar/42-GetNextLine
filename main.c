@@ -6,16 +6,16 @@
 /*   By: cben-bar <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/14 21:38:10 by cben-bar          #+#    #+#             */
-/*   Updated: 2021/12/21 21:59:35 by cben-bar         ###   ########lyon.fr   */
+/*   Updated: 2021/12/28 01:23:00 by cben-bar         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "get_next_line_bonus.h"
 #include <fcntl.h>
-
+#include <stdio.h>
 int	main(void)
 {
-//	int	fd;
+	int	fd;
 //	int	fd2;
 //	int	fd3;
 	int	fd4;
@@ -25,22 +25,22 @@ int	main(void)
 	int	x;
 
 	x = 20;
-//	fd = open("nouveau_testament.txt", O_RDONLY);
+	fd = open("nouveau_testament.txt", O_RDONLY);
 //	fd2 = open("blop", O_RDONLY);
 //	fd3 = open("blopblop", O_RDONLY);
 	fd4 = open("41_with_nl", O_RDONLY);
 	fd5 = open("42_with_nl", O_RDONLY);
 	fd6 = open("43_with_nl", O_RDONLY);
-/*	while (x-- && x > 3)
+	while (x-- && x > 0)
 	{
-	//	printf("%s\n", get_next_line(fd));
+		printf("%s\n", get_next_line(fd));
 	//	printf("%s\n", get_next_line(fd2));
 	//	printf("%s\n", get_next_line(fd3));
-		printf("%s\n", get_next_line(1004));
-		printf("%s\n", get_next_line(fd5));
-		printf("%s\n", get_next_line(fd6));
+//		printf("%s\n", get_next_line(1004));
+//		printf("%s\n", get_next_line(fd5));
+//		printf("%s\n", get_next_line(fd6));
 	}
-	while (x--)
+/*	while (x--)
 	{
 	//	printf("%s\n", get_next_line(fd));
 	//	printf("%s\n", get_next_line(fd2));
@@ -55,7 +55,7 @@ int	main(void)
 	}*/
 	
 	printf("1 ==> %s\n", get_next_line(1000));
-	printf("2 ==> %s\n", get_next_line(fd4));
+//	printf("2 ==> %s\n", get_next_line(fd));
 	printf("3 ==> %s\n", get_next_line(1001));
 	printf("4 ==> %s\n", get_next_line(fd5));
 	printf("5 ==> %s\n", get_next_line(1002));
