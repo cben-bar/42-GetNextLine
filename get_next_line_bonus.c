@@ -6,11 +6,11 @@
 /*   By: cben-bar <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/22 01:59:33 by cben-bar          #+#    #+#             */
-/*   Updated: 2021/12/29 03:37:05 by cben-bar         ###   ########lyon.fr   */
+/*   Updated: 2022/01/03 00:48:32 by cben-bar         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "get_next_line.h"
+#include "get_next_line_bonus.h"
 
 static void	ft_switch(char **s, char *buffer)
 {
