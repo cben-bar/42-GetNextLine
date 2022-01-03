@@ -6,7 +6,7 @@
 /*   By: cben-bar <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/14 21:38:10 by cben-bar          #+#    #+#             */
-/*   Updated: 2021/12/28 01:38:43 by cben-bar         ###   ########lyon.fr   */
+/*   Updated: 2022/01/03 22:34:56 by cben-bar         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ int	main(void)
 //	int	fd6;
 //	int fd7;
 	int	x;
-	char *caca;
+	char *s;
 
 	x = 20;
 	fd = open("nouveau_testament.txt", O_RDONLY);
@@ -34,9 +34,9 @@ int	main(void)
 //	fd6 = open("43_with_nl", O_RDONLY);
 	while (x-- && x >= 0)
 	{
-		caca = get_next_line(fd);
-		printf("%s", caca);
-		free(caca);
+		s = get_next_line(fd);
+		printf("%s", s);
+		free(s);
 	//	printf("%s\n", get_next_line(fd));
 	//	printf("%s\n", get_next_line(fd2));
 	//	printf("%s\n", get_next_line(fd3));
