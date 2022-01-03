@@ -6,11 +6,11 @@
 /*   By: cben-bar <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/22 01:59:49 by cben-bar          #+#    #+#             */
-/*   Updated: 2021/12/29 04:16:07 by cben-bar         ###   ########lyon.fr   */
+/*   Updated: 2022/01/03 01:12:25 by cben-bar         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "get_next_line.h"
+#include "get_next_line_bonus.h"
 
 char	*ft_strjoin(const char *str1, const char *str2)
 {
